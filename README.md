@@ -1,24 +1,28 @@
-# README
+# Chalk
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[NOT DEPLOYED]()
 
-Things you may want to cover:
+Chalk is a social media app for climbers to log their climbs, track their progress, and interact with other climbers.
 
-* Ruby version
+## Getting Started
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To run the app locally, clone this repo and install the gem dependencies:
+```
+bundle install --without production
+```
+Migrate the database:
+```
+rails db:install
+```
+Run RSpec:
+```
+rspec
+```
+Instantiate the server on your localhost:
+```
+rails server
+```
+Visit:
+```
+http://localhost:3000
+```
